@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Hotel NextGen</title>
+	<link rel="stylesheet" type="text/css" href="css/index_styles.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<link rel="stylesheet" href="css/animate.css">
+    <script src="js/index.js"></script>
+</head>
+<body style="background-image:url(Background/back.jpg)">
+	<div id="contain" class="animated fadeInUpBig">
+<div id="logo">
+	<a href="#"><img src="icons/rockrms-brands.jpg" width="300" height="250"></a>
+</div>
+<hr>
+<div id="anchor">
+<a href="#" onclick="return register()">Register</a>
+<a href="#"  onclick="return login()">LogIn</a>
+</div>
+</div>
+
+
+
+<div id="Login" class="animated fadeInRightBig" style="display: none;">
+<div id="logo">
+	<a href="#"><img src="icons/rockrms-brands.jpg" width="150" height="60"></a>
+</div>
+<hr>
+ <div id="form">
+  <form action="LogIn" method="post">
+    <label for="fname">Mobile Number</label>
+    <input type="text" id="fname" name="mobileNo" placeholder="Mobile Number">
+
+    <label for="lname">Password</label>
+    <input type="password" id="lname" name="password" placeholder="Password">
+  
+    <input type="submit" value="LogIn">
+  </form>
+  <a style="text-decoration: none; font-size: 15px;" href="#" onclick="return register()">Create Account</a>
+</div>
+</div>
+
+
+
+<div id="Register"class="animated fadeInLeftBig" style="display: none;">
+<div id="logo">
+	<a href="#"><img src="icons/rockrms-brands.jpg" width="150" height="60"></a>
+</div>
+<hr>
+<div id="form">
+  <form action="SignUp" method="post">
+    
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="fullName" placeholder="Full Name">
+
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="Country" value="India">
+
+    <label for="mob">Mobile Number</label>
+    <input type="text" id="mob" name="mobileNo" placeholder="Mobile Number">
+
+    <label for="pswd">Password</label>
+    <input type="password" id="pswd" name="password" placeholder="Password">
+  
+    <input type="submit" value="Register">
+  </form>
+  <a style="text-decoration: none; font-size: 15px;" href="#" onclick="return login()">Already a User?</a>
+</div>
+
+</div>
+
+
+<a href="enterprise.html"><p id="enterprise">Enterprise</p></a>
+<p id="copyright">Ranjan Binwani | 2019</p>
+</body>
+</html>
