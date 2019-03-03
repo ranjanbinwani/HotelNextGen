@@ -4,6 +4,7 @@ HotelNextGen is an online Hotel Booking Web Application for customers and enterp
 ## Technologies Used
 
 Front End : HTML, Cascading Style Sheets(CSS), JavaScript, Java Server Pages(JSP), Bootstrap Library. 
+<br />
 Back End : MySql as Database, Java Servlets, Java Database Connectivity(JDBC).
 
 ## Functional Requirements
